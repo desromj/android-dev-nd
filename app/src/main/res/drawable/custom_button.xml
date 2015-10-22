@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+     Code start point provided at:
+     https://discussions.udacity.com/t/how-to-set-different-button-states-to-custom-background-colors/27345/2
+     to learn about custom drawables and how simple it is to turn them into buttons
+     -->
+
+    <item
+        android:drawable="@drawable/custom_unpressed_button"
+        android:state_enabled="false" />
+
+    <item
+        android:drawable="@drawable/custom_pressed_button"
+        android:state_activated="true" />
+
+    <item
+        android:drawable="@drawable/custom_pressed_button"
+        android:state_pressed="true" />
+
+</selector>

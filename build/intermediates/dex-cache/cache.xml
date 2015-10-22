@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Quiv\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="E:\Git\Portfolio\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-b068153d3efe1d7171cff4a0be1dc1ea6dc26a05.jar" />
+    </item>
+    <item
+        jar="E:\Git\Portfolio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="E:\Git\Portfolio\app\build\intermediates\pre-dexed\debug\classes-4a19d993f8e83394b030cd326a5f776a65f662a7.jar" />
+    </item>
+    <item
+        jar="E:\Git\Portfolio\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="E:\Git\Portfolio\app\build\intermediates\pre-dexed\debug\classes-35ff0538c4487e63da1b35439f1f5b85b9489cfc.jar" />
+    </item>
+    <item
+        jar="E:\Git\Portfolio\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="E:\Git\Portfolio\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-91d27e12e1f9b2bdcb9801c08781ebecb7f5e575.jar" />
+    </item>
+    <item
+        jar="E:\Git\Portfolio\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="E:\Git\Portfolio\app\build\intermediates\pre-dexed\debug\classes-ee460777a5de326acfa4b5060d8a2543642ca1f7.jar" />
+    </item>
+
+</items>
