@@ -29,8 +29,6 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
-        createButtonListeners();
     }
 
     @Override
@@ -56,36 +54,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Register Button OnClickEvent Listeners for each button on Creation
+     * Default button method until each button gets further customized to run apps
+     * @param view The view that was clicked (Buttons)
      */
-    private void createButtonListeners()
+    public void showToast(View view)
     {
-        int [] buttons = new int [] {
-                R.id.btnBuildItBigger,
-                R.id.btnCapstone,
-                R.id.btnLibraryApp,
-                R.id.btnScoresApp,
-                R.id.btnSpotifyStreamer,
-                R.id.btnXyzReader
-        };
-
-        // Register a listener for each button
-        for (int i: buttons)
+        if (view instanceof Button)
         {
-            final Button button = (Button) findViewById(i);
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v)
-                {
-                    // Init the toast settings
-                    Context context = getApplicationContext();
-                    CharSequence text = "This Button will launch the '" + button.getText() + "' app!";
-                    int duration = Toast.LENGTH_SHORT;
+            Button button = (Button) view;
+            Context context = getApplicationContext();
+            CharSequence text = "This Button will launch the '" + button.getText() + "' app!";
+            int duration = Toast.LENGTH_SHORT;
 
-                    Toast toast = Toast.makeText(context, text, duration);
-                    toast.show();
-                }
-            });
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
         }
     }
 }

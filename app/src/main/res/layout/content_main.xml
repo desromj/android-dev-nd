@@ -29,31 +29,37 @@
             android:layout_gravity="center_horizontal" />
 
         <Button
+            android:onClick="showToast"
             style="@style/CustomAppButton"
             android:text="Spotify Streamer"
             android:id="@+id/btnSpotifyStreamer" />
 
         <Button
+            android:onClick="showToast"
             style="@style/CustomAppButton"
             android:text="Scores App"
             android:id="@+id/btnScoresApp" />
 
         <Button
+            android:onClick="showToast"
             style="@style/CustomAppButton"
             android:text="Library App"
             android:id="@+id/btnLibraryApp" />
 
         <Button
+            android:onClick="showToast"
             style="@style/CustomAppButton"
             android:text="Build It Bigger"
             android:id="@+id/btnBuildItBigger" />
 
         <Button
+            android:onClick="showToast"
             style="@style/CustomAppButton"
             android:text="Xyz Reader"
             android:id="@+id/btnXyzReader" />
 
         <Button
+            android:onClick="showToast"
             style="@style/CustomAppButton"
             android:text="Capstone: My Own App"
             android:id="@+id/btnCapstone" />
