@@ -24,44 +24,44 @@
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="My Nanodegree Apps!"
+            android:text="@string/lblPortfolioCaption"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal" />
 
         <Button
             android:onClick="showToast"
             style="@style/CustomAppButton"
-            android:text="Spotify Streamer"
+            android:text="@string/lblSpotifyStreamer"
             android:id="@+id/btnSpotifyStreamer" />
 
         <Button
             android:onClick="showToast"
             style="@style/CustomAppButton"
-            android:text="Scores App"
+            android:text="@string/lblScoresApp"
             android:id="@+id/btnScoresApp" />
 
         <Button
             android:onClick="showToast"
             style="@style/CustomAppButton"
-            android:text="Library App"
+            android:text="@string/lblLibraryApp"
             android:id="@+id/btnLibraryApp" />
 
         <Button
             android:onClick="showToast"
             style="@style/CustomAppButton"
-            android:text="Build It Bigger"
+            android:text="@string/lblBuildItBigger"
             android:id="@+id/btnBuildItBigger" />
 
         <Button
             android:onClick="showToast"
             style="@style/CustomAppButton"
-            android:text="Xyz Reader"
+            android:text="@string/lblXyzReader"
             android:id="@+id/btnXyzReader" />
 
         <Button
             android:onClick="showToast"
             style="@style/CustomAppButton"
-            android:text="Capstone: My Own App"
+            android:text="@string/lblCapstone"
             android:id="@+id/btnCapstone" />
 
     </LinearLayout>

@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Portfolio</string>
     <string name="action_settings">Settings</string>
+
+    <string name="lblPortfolioCaption">My Nanodegree Apps!</string>
+
+    <string name="lblSpotifyStreamer">Spotify Streamer</string>
+    <string name="lblScoresApp">Scores App</string>
+    <string name="lblLibraryApp">Library App</string>
+    <string name="lblBuildItBigger">Build It Bigger</string>
+    <string name="lblXyzReader">Xyz Reader</string>
+    <string name="lblCapstone">Capstone: My Own App</string>
+
+    <string name="btnToastPrefix">This Button will launch the \'</string>
+    <string name="btnToastSuffix">\' app!</string>
+
 </resources>
